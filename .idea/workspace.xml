@@ -2,362 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b86bc626-1598-45e4-a771-05c644eeba0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/font/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/link/images/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/angel_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/angry_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/showblocks/images/block_address.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/showblocks/images/block_blockquote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/showblocks/images/block_div.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/showblocks/images/block_h1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/showblocks/images/block_h2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/showblocks/images/block_h3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/showblocks/images/block_h4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/showblocks/images/block_h5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/showblocks/images/block_h6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/showblocks/images/block_p.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/showblocks/images/block_pre.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/broken_heart.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/cartBG.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/confused_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/cry_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/devil_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/embaressed_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/envelope.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/font/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/header.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/heart.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/forms/images/hiddenfield.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/magicline/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/images.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/lightbulb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/images/mini.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/image/images/noimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/omg_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/pagebreak/images/pagebreak.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/flash/images/placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/iframe/images/placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/regular_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/sad_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/shades_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/fakeobjects/images/spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/stepbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/teeth_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/templates/templates/images/template1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/templates/templates/images/template2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/templates/templates/images/template3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/thumbs_down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/thumbs_up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/tongue_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/tounge_smile.gif" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/static/css/visaservices22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/visaservices22.jpg" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/static/css/visaservices33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/visaservices33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/images/wink_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/articles/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/CHANGES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/scayt/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/wsc/LICENSE.md" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/scayt/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/wsc/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/scss/_bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/scss/_extras.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/about/dialogs/about.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/aboutus.html" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/faq/admin.py" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/onlineservices/admin.py" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/passport/admin.py" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/staticpages/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/af.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/affiliate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/link/dialogs/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/templates/articles/author_add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/autogrow/samples/autogrow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/templates/articles/bbase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/bn.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/bookmarks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/js/bootstrap-filestyle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/bootstrap-modal-bs3patch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/bootstrap-modal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/js/bootstrap-modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/js/bootstrap-modalmanager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/less/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/build-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/forms/dialogs/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/forms/dialogs/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/ckeditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/colordialog/dialogs/colordialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/contents.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/less/core.less" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/corporateaccounts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/pastefromword/filter/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/templates/templates/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/templates/articles/detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/dialog/dialogDefinition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/dialog_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/dialog_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/dialog_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/dialog_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/dialog_opera.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/div/dialogs/div.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/editor_gecko.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/editor_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/editor_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/editor_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/editor_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/embassies.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/en-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/en-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/etaform.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/less/extras.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/factsheet.html" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/faq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/find/dialogs/find.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/flash/dialogs/flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/fo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/css/font-awesome-ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/less/font-awesome-ie7.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/css/font-awesome-ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/scss/font-awesome-ie7.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/font/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/forms/dialogs/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/forms/dialogs/hiddenfield.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/iframe/dialogs/iframe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/image/dialogs/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/jumbotron.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/ka.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/link/dialogs/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/templates/articles/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/liststyle/dialogs/liststyle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/templates/articles/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/modern-business.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/js/modern-business.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/scayt/dialogs/options.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/orderform.html" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/passportfaq.html" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/passportform.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/clipboard/dialogs/paste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/less/path.less" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/payment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/autogrow/plugin.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/policy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/preview/preview.html" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/forms/dialogs/radio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/skins/moono/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/.idea/dictionaries/root.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/forms/dialogs/select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/css/signin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/smiley/dialogs/smiley.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/styles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/table/dialogs/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/templates/dialogs/templates.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/templates/dialogs/templates.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/terms.html" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/test.py" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/staticpages/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/forms/dialogs/textarea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/forms/dialogs/textfield.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/timeline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/travelinsurance.html" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/travelsuppliers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/faq/urls.py" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/onlineservices/urls.py" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/passport/urls.py" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/staticpages/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/articles/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/font-awesome/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/web/views.py" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/web/views_old.py" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/visafaq.html" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/visareview.html" />
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/widgets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/wsc/dialogs/wsc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mediasite/mediasite/static/suit-ckeditor/ckeditor/lang/zh.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mediasite/articles/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mediasite/articles/migrations/__init__.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasite/db.sqlite3" afterPath="$PROJECT_DIR$/mediasite/db.sqlite3" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/search/_result_object.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/search/_result_object.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/base.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/base.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/admin/base_site.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/admin/base_site.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasite/mediasite/templates/admin/base_site.html" afterPath="$PROJECT_DIR$/mediasite/mediasite/templates/admin/base_site.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/static/css/bootstrap.css" afterPath="/home/lalit/homework/careerdisk/careerdisk/static/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/static/suit-ckeditor/ckeditor/config.js" afterPath="/home/lalit/homework/careerdisk/careerdisk/static/suit-ckeditor/ckeditor/config.js" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/staticfiles/suit-ckeditor/ckeditor/config.js" afterPath="/home/lalit/homework/careerdisk/staticfiles/suit-ckeditor/ckeditor/config.js" />
@@ -372,15 +60,15 @@
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/search/search.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/search/search.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/search/search1.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/search/search1.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/settings.py" afterPath="/home/lalit/homework/careerdisk/careerdisk/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasite/mediasite/settings.py" afterPath="$PROJECT_DIR$/mediasite/mediasite/settings.py" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/student/student_add.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/student/student_add.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/article/urls.py" afterPath="/home/lalit/homework/careerdisk/article/urls.py" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/urls.py" afterPath="/home/lalit/homework/careerdisk/careerdisk/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasite/mediasite/urls.py" afterPath="$PROJECT_DIR$/mediasite/mediasite/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasite/articles/urls.py" afterPath="$PROJECT_DIR$/mediasite/articles/urls.py" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/article/views.py" afterPath="/home/lalit/homework/careerdisk/article/views.py" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/parties/views.py" afterPath="/home/lalit/homework/careerdisk/parties/views.py" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/student/views.py" afterPath="/home/lalit/homework/careerdisk/student/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasite/articles/views.py" afterPath="$PROJECT_DIR$/mediasite/articles/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="djnago.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -406,34 +94,34 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mediasite/articles/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="250" column="43" selection-start="8723" selection-end="8723" vertical-scroll-proportion="0.9039088" vertical-offset="3195" max-vertical-offset="4710">
+            <state line="48" column="49" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.51302934" vertical-offset="405" max-vertical-offset="4575">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///home/lalit/homework/careerdisk/article/views.py">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="339" selection-end="427" vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="4710">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///home/lalit/homework/careerdisk/careerdisk/templates/article/list.html">
+      <file leaf-file-name="base_site.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/admin/base_site.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="25" selection-start="0" selection-end="5573" vertical-scroll-proportion="-15.125" vertical-offset="2262" max-vertical-offset="2865">
+            <state line="2" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///home/lalit/homework/careerdisk/article/models.py">
+      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mediasite/articles/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="23" selection-start="2852" selection-end="3295" vertical-scroll-proportion="-19.88" vertical-offset="988" max-vertical-offset="1590">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
               <folding />
             </state>
           </provider>
@@ -442,16 +130,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mediasite/articles/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="15" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="1740">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///home/lalit/homework/careerdisk/careerdisk/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="103.125" vertical-offset="2475" max-vertical-offset="5130">
+            <state line="5" column="29" selection-start="164" selection-end="165" vertical-scroll-proportion="33.88889" vertical-offset="990" max-vertical-offset="1740">
               <folding />
             </state>
           </provider>
@@ -479,21 +158,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///home/lalit/homework/careerdisk/web/views.py">
+      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.8" vertical-offset="45" max-vertical-offset="8445">
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///home/lalit/homework/careerdisk/careerdisk/templates/web/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="40.416668" vertical-offset="1075" max-vertical-offset="4410">
+            <state line="87" column="47" selection-start="2933" selection-end="2933" vertical-scroll-proportion="-3.625" vertical-offset="1218" max-vertical-offset="2940">
               <folding />
             </state>
           </provider>
@@ -512,18 +180,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mediasite/mediasite/templates/articles/detail.html" />
         <option value="$PROJECT_DIR$/mediasite/mediasite/templates/articles/list.html" />
         <option value="$PROJECT_DIR$/mediasite/mediasite/templates/articles/bbase.html" />
         <option value="$PROJECT_DIR$/mediasite/mediasite/templates/articles/author_add.html" />
         <option value="$PROJECT_DIR$/mediasite/mediasite/settings.py" />
-        <option value="$PROJECT_DIR$/mediasite/mediasite/templates/admin/base_site.html" />
         <option value="$PROJECT_DIR$/mediasite/mediasite/templates/base.html" />
         <option value="$PROJECT_DIR$/mediasite/mediasite/templates/articles/login.html" />
         <option value="/home/lalit/homework/careerdisk/web/urls.py" />
         <option value="$PROJECT_DIR$/mediasite/mediasite/urls.py" />
+        <option value="$PROJECT_DIR$/mediasite/mediasite/templates/admin/base_site.html" />
         <option value="$PROJECT_DIR$/mediasite/articles/models.py" />
         <option value="$PROJECT_DIR$/mediasite/articles/urls.py" />
+        <option value="$PROJECT_DIR$/mediasite/mediasite/templates/articles/detail.html" />
         <option value="$PROJECT_DIR$/mediasite/articles/views.py" />
       </list>
     </option>
@@ -576,124 +244,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="djnago" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careerdisk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djnago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careerdisk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djnago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careerdisk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="passport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djnago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careerdisk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careerdisk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djnago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careerdisk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careerdisk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djnago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careerdisk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careerdisk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djnago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careerdisk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careerdisk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djnago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careerdisk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="article" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -783,32 +333,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="articles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djnago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djnago" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mediasite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mediasite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1037,36 +561,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mediasite/articles/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="291" column="43" selection-start="10208" selection-end="10208" vertical-scroll-proportion="0.0" vertical-offset="2536" max-vertical-offset="4770">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="480">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediasite/articles/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/bbase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="7" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/author_add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="7" selection-start="2981" selection-end="2981" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1110">
@@ -1258,37 +752,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/admin/base_site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="311" selection-end="311" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="0" selection-start="5159" selection-end="5159" vertical-scroll-proportion="0.5338983" vertical-offset="1845" max-vertical-offset="4605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/bbase.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="7" selection-start="680" selection-end="680" vertical-scroll-proportion="0.5970149" vertical-offset="0" max-vertical-offset="603">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/author_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="7" selection-start="2981" selection-end="2981" vertical-scroll-proportion="0.8507463" vertical-offset="507" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="7" selection-start="5178" selection-end="5178" vertical-scroll-proportion="4.20398" vertical-offset="315" max-vertical-offset="2940">
           <folding />
         </state>
       </provider>
@@ -1355,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediasite/articles/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="15" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="1740">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///home/lalit/homework/careerdisk/careerdisk/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
@@ -1380,18 +839,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="0" selection-start="5159" selection-end="5159" vertical-scroll-proportion="3.5677967" vertical-offset="55" max-vertical-offset="4605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/author_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="8" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.5721393" vertical-offset="0" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/admin/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediasite/articles/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mediasite/articles/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="4" selection-start="506" selection-end="506" vertical-scroll-proportion="0.4784689" vertical-offset="0" max-vertical-offset="627">
+        <state line="21" column="31" selection-start="593" selection-end="593" vertical-scroll-proportion="0.50239235" vertical-offset="0" max-vertical-offset="627">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mediasite/articles/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="29" selection-start="164" selection-end="165" vertical-scroll-proportion="33.88889" vertical-offset="990" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="47" selection-start="2933" selection-end="2933" vertical-scroll-proportion="-3.625" vertical-offset="1218" max-vertical-offset="2940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mediasite/articles/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="250" column="43" selection-start="8723" selection-end="8723" vertical-scroll-proportion="0.9039088" vertical-offset="3195" max-vertical-offset="4710">
+        <state line="48" column="49" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.51302934" vertical-offset="405" max-vertical-offset="4575">
           <folding />
         </state>
       </provider>

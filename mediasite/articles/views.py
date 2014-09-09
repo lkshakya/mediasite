@@ -42,11 +42,9 @@ def article_detail(request,article_id):
     """Main listing."""
     form = CommentForm(request.POST,None)
     if form.is_valid():
-            
             cmodel = form.save()
-            cmodel.save()             
-
-    comments = Comment.objects.all().order_by("created")
+            cmodel.save()
+    comments = Comment.objects.filter(post_id=article_id).order_by("created")
     paginator = Paginator(comments, 100)
     try: page = int(request.GET.get("page", '1'))
     except ValueError: page = 1
@@ -84,7 +82,7 @@ def category_detail(request,cat_id):
     """Main listing."""
     form = CommentForm(request.POST,None)
     if form.is_valid():
-            
+
             cmodel = form.save()
             cmodel.save()             
     comments = Comment.objects.all().order_by("created")
@@ -117,7 +115,7 @@ def category_detail(request,cat_id):
         posts = paginator.page(page)
     except (InvalidPage, EmptyPage):
         posts = paginator.page(paginator.num_pages)
-    return render_to_response("article/list.html", RequestContext(request, {'posts':posts,'categories':categories,'comments':comments}))
+    return render_to_response("articles/list.html", RequestContext(request, {'posts':posts,'categories':categories,'comments':comments}))
 
 
 def search_posts(request):
@@ -126,17 +124,14 @@ def search_posts(request):
     paginator = Paginator(categories, 100)
     try: page = int(request.GET.get("page", '1'))
     except ValueError: page = 1
-
     try:
         categories = paginator.page(page)
     except (InvalidPage, EmptyPage):
         categories = paginator.page(paginator.num_pages)
     posts = Post.objects.all() 
     paginator = Paginator(posts, 2)
-
     try: page = int(request.GET.get("page", '1'))
     except ValueError: page = 1
-
     try:
         posts = paginator.page(page)
     except (InvalidPage, EmptyPage):
@@ -146,7 +141,6 @@ def search_posts(request):
     sqs = SearchQuerySet().filter(text=post_type)
     clean_query = sqs.query.clean(post_type)
     result = sqs.filter(content=clean_query)
-           
     #result=SearchQuerySet().all()
     #result = sqs.all()
     view = search_view_factory(
@@ -174,13 +168,10 @@ def comment_post(request,article_id):
         categories = paginator.page(page)
     except (InvalidPage, EmptyPage):
         categories = paginator.page(paginator.num_pages)
-
     posts = Post.objects.filter(id=article_id)
     paginator = Paginator(posts, 2)
-
     try: page = int(request.GET.get("page", '1'))
     except ValueError: page = 1
-
     try:
         posts = paginator.page(page)
     except (InvalidPage, EmptyPage):

@@ -107,4 +107,4 @@ class PostAdmin(ModelAdmin):
 class CommentForm(ModelForm):
     class Meta:
         model = Comment
-        fields = ['name', 'email', 'body']
+        fields = ['name', 'email', 'body','post']

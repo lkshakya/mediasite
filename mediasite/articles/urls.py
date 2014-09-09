@@ -19,7 +19,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     url(r'^$', 'articles.views.main',name='home'),
     url(r'^alogin/$', 'articles.views.login',name='login'),
-    #url(r'^logout/$', 'student.views.logout',name='logout'),
+    url(r'^logout/$', 'articles.views.logout',name='logout'),
     url(r'^write/$', 'articles.views.uploadView',name='uploadView'),
     url(r'^listarticle/$', 'articles.views.fileView',name='fileView'),
     url(r'^profile/$', 'articles.views.authors'),
