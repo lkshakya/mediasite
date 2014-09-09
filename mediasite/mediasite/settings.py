@@ -83,4 +83,33 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
+TEMPLATE_DIRS = (
+    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+    #'/app/careerdisk/templates',
+    '/var/www/djnago/mediasite/mediasite/templates',
+)
+
+
+#Additional locations of static files
+STATICFILES_DIRS = (
+    '/var/www/djnago/mediasite/mediasite/static',
+    #'/app/careerdisk/static',
+    # Put strings here, like "/home/html/static" or "C:/www/django/static".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+
+)
+
+# List of finder classes that know how to find static files in
+# various locations.
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+)
+
+STATIC_ROOT = '/staticfiles'
 STATIC_URL = '/static/'
+ADMIN_MEDIA_PREFIX = '/media/admin/'

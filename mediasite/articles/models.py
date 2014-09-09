@@ -12,7 +12,7 @@ class Author(models.Model):
     email = models.EmailField('Email/Username',unique='True')
     password=models.CharField('Password',max_length=30)
     dob = models.DateField(auto_now_add=True)
-    
+
     def __unicode__(self):
         return self.name
     
@@ -27,7 +27,6 @@ class Category(models.Model):
     def __unicode__(self):
         return self.category_name
 
-
 class Post(models.Model):
     category = models.ForeignKey(Category, blank=True, null=True)
     author = models.ForeignKey(Author, blank=True, null=True)
@@ -35,6 +34,9 @@ class Post(models.Model):
     title = models.CharField(max_length=60)
     body = models.TextField()
     created = models.DateTimeField(auto_now_add=True)
+    class Meta:
+        verbose_name = 'Article'
+        verbose_name_plural = 'Articles'
 
     def __unicode__(self):
         return self.title
@@ -75,32 +77,34 @@ class Comment(models.Model):
     def __unicode__(self):
         return unicode("%s: %s" % (self.post, self.body[:60]))
  
-#class PostForm(ModelForm):
-#    class Meta:
-#        model = Post
-#        widgets = {
-#            'body': CKEditorWidget(editor_options={'startupFocus': True})
-#        }
-#        
-#        def __init__(self, *args, **kwargs):
-#            super(PostForm, self).__init__(*args, **kwargs)
+class PostForm(ModelForm):
+    class Meta:
+        model = Post
+        widgets = {
+            'body': CKEditorWidget(editor_options={'startupFocus': True})
+        }
+        fields = ['category','image','title','body']
+        def __init__(self, *args, **kwargs):
+            super(PostForm, self).__init__(*args, **kwargs)
 
 
+class AuthorForm(ModelForm):
+    class Meta:
+         model = Author
+         fields = ['name','image','email', 'password']
 
-#class AuthorForm(ModelForm):
-#    class Meta:
-#        model = Author
-       
 
 class PostAdmin(ModelAdmin):
     list_display = ["__unicode__",   "thumbnail"]
     list_filter = ["title"]
     list_per_page =10
-    model = Post
+    form = PostForm
     fieldsets = [
       ('Body', {'classes': ('full-width',), 'fields': ('category','author','image','title','body')})
     ]
-             
-#class CommentForm(ModelForm):
-#    class Meta:
-#        model = Comment
+
+
+class CommentForm(ModelForm):
+    class Meta:
+        model = Comment
+        fields = ['name', 'email', 'body']

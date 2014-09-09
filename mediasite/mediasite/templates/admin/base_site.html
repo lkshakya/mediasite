@@ -1,0 +1,20 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% autoescape on %}
+
+
+
+
+{% block title %}{{ title }} | {% trans 'Article site admin' %}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name">{% trans 'Articles administration' %}</h1>
+{% endblock %}
+
+
+{% block nav-global %}
+
+{% endblock %}
+
+{% endautoescape %}

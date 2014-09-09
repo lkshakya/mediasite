@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="utf-8"> 
+<title>careerdisk update profile page</title> 
+<meta name="description" content="careerdisk update profile page"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+ <link href="/static/css/bootstrap.css" rel="stylesheet" media="screen">
+    
+</head>
+<body>
+
+
+
+
+{% load bootstrap %}
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Careerdisk</a>
+        </div>
+
+
+
+        <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+
+                   <li><a href="/" >Home</a></li>
+                   <li><a href="/author_edit/" >Edit Profile</a></li>
+                   <li><a href="/alogin/" >Logout</a></li>
+                   <li><a href="/contact/">Contact</a></li>
+              </ul>
+        </div><!--/.navbar-collapse -->
+
+      </div>
+    </div>
+
+
+<!-- Page Content -->
+
+    <div class="container">
+ 
+  <div class="row">
+
+        <div class="col-lg-12">
+          <h1 class="page-header"><small>Update Profile</small></h1>
+          <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li class="active"><a href="/profile/">Update Author</a></li>
+          </ol>
+        </div>
+
+      </div>
+
+
+      
+      <div class="row">
+      <div class="col-md-3 col-sm-4 sidebar">
+            <ul class="nav nav-stacked nav-pills">
+              <li class="active"><a href="/profile/">My Profile</a></li>
+              <li ><a href="/write/">Write Article</a></li>
+              <li><a href="/listarticle/">My Articles</a></li>
+              </ul>
+        </div>    
+        <div class="col-md-6 col-sm-4">
+          <h1 class="page-header"><small>Add more Detail</small></h1>
+         
+
+  <p>
+  <form role="form"  action="/author_edit/" method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  <div class="form-group">
+     {{ author_form.name|bootstrap }}
+  </div>
+  
+   <div class="form-group">
+     {{ author_form.email|bootstrap }}
+  </div>
+  
+  <div class="form-group">
+    
+   {{ author_form.image|bootstrap}}
+  
+  </div>
+  
+  <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+</form>
+  
+</p>  
+
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+
+    <div class="container">
+      <hr>
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; Careerdisk 2013</p>
+          </div>
+        </div>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+</body>
+</html>
