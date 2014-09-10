@@ -41,21 +41,19 @@
       <change type="NEW" beforePath="" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/web/widgets.html" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/mediasite/articles/migrations/0001_initial.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/mediasite/articles/migrations/__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasite/db.sqlite3" afterPath="$PROJECT_DIR$/mediasite/db.sqlite3" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/search/_result_object.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/search/_result_object.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/base.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/base.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/admin/base_site.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/admin/base_site.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasite/mediasite/templates/admin/base_site.html" afterPath="$PROJECT_DIR$/mediasite/mediasite/templates/admin/base_site.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/static/css/bootstrap.css" afterPath="/home/lalit/homework/careerdisk/careerdisk/static/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/static/suit-ckeditor/ckeditor/config.js" afterPath="/home/lalit/homework/careerdisk/careerdisk/static/suit-ckeditor/ckeditor/config.js" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/staticfiles/suit-ckeditor/ckeditor/config.js" afterPath="/home/lalit/homework/careerdisk/staticfiles/suit-ckeditor/ckeditor/config.js" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/article/detail.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/article/detail.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/student/forms.py" afterPath="/home/lalit/homework/careerdisk/student/forms.py" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/article/list.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/article/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasite/mediasite/templates/articles/list.html" afterPath="$PROJECT_DIR$/mediasite/mediasite/templates/articles/list.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/student/login.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/student/login.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/article/models.py" afterPath="/home/lalit/homework/careerdisk/article/models.py" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/state/models.py" afterPath="/home/lalit/homework/careerdisk/state/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasite/articles/models.py" afterPath="$PROJECT_DIR$/mediasite/articles/models.py" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/req.txt" afterPath="/home/lalit/homework/careerdisk/req.txt" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/search/search.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/search/search.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/search/search1.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/search/search1.html" />
@@ -63,12 +61,9 @@
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/templates/student/student_add.html" afterPath="/home/lalit/homework/careerdisk/careerdisk/templates/student/student_add.html" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/article/urls.py" afterPath="/home/lalit/homework/careerdisk/article/urls.py" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/careerdisk/urls.py" afterPath="/home/lalit/homework/careerdisk/careerdisk/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasite/articles/urls.py" afterPath="$PROJECT_DIR$/mediasite/articles/urls.py" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/article/views.py" afterPath="/home/lalit/homework/careerdisk/article/views.py" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/parties/views.py" afterPath="/home/lalit/homework/careerdisk/parties/views.py" />
       <change type="MODIFICATION" beforePath="/home/lalit/homework/careerdisk/student/views.py" afterPath="/home/lalit/homework/careerdisk/student/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediasite/articles/views.py" afterPath="$PROJECT_DIR$/mediasite/articles/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="djnago.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,10 +86,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mediasite/articles/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="49" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.51302934" vertical-offset="405" max-vertical-offset="4575">
+            <state line="48" column="49" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="4575">
               <folding />
             </state>
           </provider>
@@ -118,6 +113,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="bbase.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/bbase.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="7" selection-start="696" selection-end="696" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="450">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mediasite/articles/tests.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -136,6 +140,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="0" selection-start="2707" selection-end="2707" vertical-scroll-proportion="-0.2935943" vertical-offset="1080" max-vertical-offset="4605">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file:///home/lalit/homework/careerdisk/careerdisk/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -147,6 +160,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="51" selection-start="966" selection-end="966" vertical-scroll-proportion="52.5" vertical-offset="1620" max-vertical-offset="2865">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file:///home/lalit/homework/careerdisk/web/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -154,15 +176,6 @@
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="47" selection-start="2933" selection-end="2933" vertical-scroll-proportion="-3.625" vertical-offset="1218" max-vertical-offset="2940">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -180,7 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mediasite/mediasite/templates/articles/list.html" />
         <option value="$PROJECT_DIR$/mediasite/mediasite/templates/articles/bbase.html" />
         <option value="$PROJECT_DIR$/mediasite/mediasite/templates/articles/author_add.html" />
         <option value="$PROJECT_DIR$/mediasite/mediasite/settings.py" />
@@ -193,14 +205,15 @@
         <option value="$PROJECT_DIR$/mediasite/articles/urls.py" />
         <option value="$PROJECT_DIR$/mediasite/mediasite/templates/articles/detail.html" />
         <option value="$PROJECT_DIR$/mediasite/articles/views.py" />
+        <option value="$PROJECT_DIR$/mediasite/mediasite/templates/articles/list.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="64" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1303" />
-    <option name="height" value="773" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -529,12 +542,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <frame x="64" y="24" width="1303" height="745" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18908532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -706,13 +720,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="649" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="7" selection-start="5254" selection-end="5254" vertical-scroll-proportion="-23.875" vertical-offset="2202" max-vertical-offset="2865">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///home/lalit/homework/careerdisk/careerdisk/settings_local.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="11" selection-start="2978" selection-end="2994" vertical-scroll-proportion="-4.28" vertical-offset="1393" max-vertical-offset="4515">
@@ -749,13 +756,6 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/bbase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="7" selection-start="680" selection-end="680" vertical-scroll-proportion="0.5970149" vertical-offset="0" max-vertical-offset="603">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,13 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="0" selection-start="5159" selection-end="5159" vertical-scroll-proportion="3.5677967" vertical-offset="55" max-vertical-offset="4605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/author_add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="8" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.5721393" vertical-offset="0" max-vertical-offset="1110">
@@ -899,7 +892,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mediasite/articles/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="49" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.51302934" vertical-offset="405" max-vertical-offset="4575">
+        <state line="48" column="49" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="4575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/bbase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="7" selection-start="696" selection-end="696" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/articles/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="51" selection-start="966" selection-end="966" vertical-scroll-proportion="52.5" vertical-offset="1620" max-vertical-offset="2865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediasite/mediasite/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="2707" selection-end="2707" vertical-scroll-proportion="-0.2935943" vertical-offset="1080" max-vertical-offset="4605">
           <folding />
         </state>
       </provider>

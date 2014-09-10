@@ -1,301 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+<meta charset="utf-8">
+<title>Articles</title>
+<meta name="description" content="Articles">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+ <link href="/static/css/bootstrap.css" rel="stylesheet" media="screen">
+ <link href="/static/css/modern-business.css" rel="stylesheet">
+  <link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
 
-    <title>MediaSite Services</title>
+{% load bootstrap %}
 
-    <!-- Bootstrap core CSS -->
-    <link href="/static/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Add custom CSS here -->
-     <link href="/static/css/modern-business.css" rel="stylesheet">
-     <link href="/static/css/datepicker.css" rel="stylesheet">
-     <link href="/static/css/jumbotron.css" rel="stylesheet">
-     <link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" media="screen"
-     href="http://tarruda.github.com/bootstrap-datetimepicker/assets/css/bootstrap-datetimepicker.min.css">
-     <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-     <script src="/static/js/bootstrap-datepicker.js"></script>
-  </head>
-
-  <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-          <a class="navbar-brand" href="/">Visa Buzz</a>
+          <a class="navbar-brand" href="/">Articles</a>
         </div>
+        <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
 
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse" class="btn-group">
-          <ul class="nav navbar-nav navbar-right">
+                   <li><a href="/author_add/" >Register</a></li>
+                   <li><a href="/alogin/" >Login</a></li>
+                   <li><a href="/admin/">Admin</a></li>
+                   <li><a href="/contact/">Contact</a></li>
+              </ul>
 
 
-         {% if request.session.client_id %}
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
 
-            <li><a href="/applicants/">My Profile</a></li>
-            <li><a href="/logout/">logout</a></li>
-
-
-         {% else %}
-
-            <li><a href="/">Home</a></li>
-            <li><a href="/aboutus/">About Us</a></li>
-            <li><a href="/countryvisa/">Visa</a></li>
+         {% block content %}
+         {% endblock %}
 
 
-
-        <!--     <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Online Services <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="/etaform/"> Argentina Reciprocity Fee</a></li>
-                <li><a href="/etaform/">Australia ETA</a></li>
-                <li><a href="/etaform/">Canada Embassy Registration</a></li>
-                <li><a href="/etaform/"> Russian Invitation</a></li>
-                <li><a href="/etaform/">Senegal Pre-Enrollment</a></li>
-                <li><a href="/etaform/">Sri Lanka ETA</a></li>
-
-                 <li><a href="/etaform/">Turkey e-Visa</a></li>
-                <li><a href="/etaform/">US ESTA</a></li>
-                <li><a href="/etaform/">US Embassy Registration</a></li>
-           </ul>
-            </li> -->
-            <li><a href="/usvisa/">U.S. Passport</a></li>
-            <li><a href="/alogin/">Login</a></li>
-            <li><a href="/register/">Register</a></li>
-            <li><a href="/contact/">Contact</a></li>
-          {% endif %}
-          </ul>
-
-
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
-
-          {% block content %}
- {% endblock %}
-
-<div class="container">
+    <div class="container">
       <hr>
       <footer>
         <div class="row">
-
-     <div class="col-lg-2 vs">
-     <nav>
-    <ul class="nav"><label>Visas</label>
-     </br>
-    <a href="/visacountry/45/">China Visa:</a>
-     <br>
-    <a href="/visacountry/32/"> Brazil Visa</a>
-     <br>
-    <a href="/visacountry/177/"> Russian Visa</a>
-     <br>
-    <a href="/visacountry/99/">India Visa</a>
-     <br>
-    <a href="/visacountry/15/">Australia Visa</a>
-     <br>
-    <a href="/countryvisa/"> View all countries</a>
-
-    </ul>
-    </nav>
-
-    </div>
-
-   <div class="col-lg-3 vs">
-    <nav>
-    <ul class="nav"><label>Passport</label>
-     </br>
-    <a href="/passportform/">New Passport Application</a>
-     <br>
-    <a href="/passportform/"> Passport Renewal</a>
-     <br>
-    <a href="/passportform/"> Lost or Stolen Passport</a>
-     <br>
-    <a href="/passportform/">Add Passport Pages</a>
-     <br>
-    <a href="/passportform/">Passport Name Change</a>
-     <br>
-    <a href="/passportform/">Second Passport</a>
-      <br>
-     <a href="/passportfaq/">Passport Services F.A.Q.</a>
-    </ul>
-    </nav>
-
-    </div>
-
-   <div class="col-lg-3 vs">
-    <nav>
-    <ul class="nav"><label>Solutions</label>
-     </br>
-
-    <a href="/corpaccounts/">Corporate Accounts</a>
-     <br>
-    <a href="/travelsupp/">Travel Suppliers</a>
-     <br>
-
-
-
-    <a href="/affiliate/">Affiliate Program</a>
-     <br>
-    <a href="/travelinsurance/">Travel Insurance</a>
-     <br>
-     <a href="/embassies/">Embassies and Consulates</a>
-    </ul>
-    </nav>
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="col-lg-2 vs">
-
-    <nav>
-    <ul class="nav"><label>VisaBuzz Lab</label>
-     </br><a href="/widgets/">VisaBuzz Widgets</a>
-     <br>
-    <a href="/bookmarks/">Bookmarklets</a>
-     <br>
-    <a href="/countryvisa/">Visa Requirements</a>
-     <br>
-    <a href="/visafaq/">Technical F.A.Q.</a>
-    </ul>
-    </nav>
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-  <div class="col-lg-2 vs">
-
-    <nav>
-    <ul class="nav"><label><a href="/aboutus/" style="color:#830300;">About VisaBuzz</a></label>
-     </br><a href="/factsheet/">Fact Sheet</a>
-     <br>
-    <a href="/timeline/"> Timeline</a>
-     <br>
-    <a href="/visareview/">VisaBuzz Reviews</a>
-     <br>
-    <a href="/policy/">Privacy Statement</a>
-
-      <br>
-    <a href="/terms">Terms of Service</a>
-
-       <br>
-    <a href="#">Follow on Twitter</a>
-
-      <br>
-    <a href="#">Like on Facebook</a>
-
-    </ul>
-    </nav>
-
-    </div>
-
-   </div>
+          <div class="col-lg-12">
+            <p>Copyright &copy; Careerdisk 2014</p>
+          </div>
+        </div>
       </footer>
 
     </div><!-- /.container -->
 
-
-<div class="container">
-        <div class="row">
-        <div class="col-lg-12">
-        <p>Copyright 2014 VisaBuzz Inc. </p>
-         </div>
-
-       </div>
-     </div>
-
-
-
- <!-- Bootstrap core JavaScript -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/static/js/jquery.js"></script>
-    <script src="/static/js/bootstrap.js"></script>
-    <script src="/static/js/modern-business.js"></script>
-
-
- <script type="text/javascript"
-     src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js">
-    </script>
-    <script type="text/javascript"
-     src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js">
-    </script>
-    <script type="text/javascript"
-     src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js">
-    </script>
-    <script type="text/javascript"
-     src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.pt-BR.js">
-    </script>
-    <script type="text/javascript">
-      $('#datetimepicker').datetimepicker({
-        format: 'yyyy-MM-dd',
-        language: 'EN'
-      });
-    </script>
-
-  <script type="text/javascript">
-      $('#datetimepicker1').datetimepicker({
-        format: 'yyyy-MM-dd',
-        language: 'EN'
-      });
-    </script>
-
-  <script type="text/javascript">
-      $('#datetimepicker2').datetimepicker({
-        format: 'yyyy-MM-dd',
-        language: 'EN'
-      });
-    </script>
-
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
