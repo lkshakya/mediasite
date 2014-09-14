@@ -1,7 +1,7 @@
 import os
 from setuptools import setup
 
-with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
+with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
     README = readme.read()
 
 # allow setup.py to be run from any path
@@ -15,7 +15,7 @@ setup(
     license='GNU License',  # example license
     description='A simple Django app to list Web-based Articles.',
     long_description='README.md',
-    url='http://www.example.com/',
+    url='https://github.com/lkshakya/mediasite',
     author='Lalit Shakya',
     author_email='opposite800@gmail.com',
     classifiers=[
@@ -25,7 +25,6 @@ setup(
         'License :: OSI Approved :: GNU License', # example license
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        # Replace these appropriately if you are stuck on Python 2.
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.2',

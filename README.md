@@ -5,16 +5,14 @@ Articles
 Articles is a simple Django app to list Web-based News. For each
 article  visitors can post the comments.
 
-Detailed documentation is in the "docs" directory.
 
 Quick start
 -----------
 
 1. Add "articles" to your INSTALLED_APPS setting like this::
 
-    INSTALLED_APPS = (
-        ...
-        'articles',
+    INSTALLED_APPS = ('your apps1',
+    'articles',
     )
 
 2. Include the polls URLconf in your project urls.py like this::
