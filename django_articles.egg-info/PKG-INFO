@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: django-articles
+Version: 0.1
+Summary: A simple Django app to list Web-based Articles.
+Home-page: http://www.example.com/
+Author: Lalit Shakya
+Author-email: opposite800@gmail.com
+License: GNU License
+Description: README.md
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content

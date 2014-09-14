@@ -27,7 +27,7 @@ def main(request):
         categories = paginator.page(page)
     except (InvalidPage, EmptyPage):
         categories = paginator.page(paginator.num_pages)
-    paginator = Paginator(posts, 2)
+    paginator = Paginator(posts, 10)
     try: page = int(request.GET.get("page", '1'))
     except ValueError: page = 1
     try:

@@ -8,7 +8,7 @@ from suit_ckeditor.widgets import CKEditorWidget
 
 class Author(models.Model):
     name = models.CharField(max_length=60,blank=True, null=True)
-    image = ImageField(upload_to='author_post', blank=True, null=True)
+    image = ImageField(upload_to='mediasite/media/author_post', blank=True, null=True)
     email = models.EmailField('Email/Username',unique='True')
     password=models.CharField('Password',max_length=30)
     dob = models.DateField(auto_now_add=True)
@@ -30,7 +30,7 @@ class Category(models.Model):
 class Post(models.Model):
     category = models.ForeignKey(Category, blank=True, null=True)
     author = models.ForeignKey(Author, blank=True, null=True)
-    image = models.ImageField(upload_to='articleimage/',null=True,blank=True)
+    image = models.ImageField(upload_to='mediasite/media/articleimage/',null=True,blank=True)
     title = models.CharField(max_length=60)
     body = models.TextField()
     created = models.DateTimeField(auto_now_add=True)
