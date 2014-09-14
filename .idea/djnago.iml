@@ -5,6 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="careerdisk" />
+    <orderEntry type="module" module-name="django-shop" />
   </component>
 </module>
 

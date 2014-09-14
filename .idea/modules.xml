@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file:///home/lalit/homework/careerdisk/.idea/careerdisk.iml" filepath="/home/lalit/homework/careerdisk/.idea/careerdisk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../django-shop/.idea/django-shop.iml" filepath="$PROJECT_DIR$/../django-shop/.idea/django-shop.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/djnago.iml" filepath="$PROJECT_DIR$/.idea/djnago.iml" />
     </modules>
   </component>
