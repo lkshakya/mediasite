@@ -1,8 +1,0 @@
-MANIFEST.in
-README.rst
-setup.py
-django_mediasite.egg-info/PKG-INFO
-django_mediasite.egg-info/SOURCES.txt
-django_mediasite.egg-info/dependency_links.txt
-django_mediasite.egg-info/top_level.txt
-mediasite/manage.py
