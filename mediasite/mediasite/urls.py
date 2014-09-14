@@ -8,7 +8,7 @@ urlpatterns = patterns('',
     #url(r'^', 'articles.views.main'),
     url(r'^', include('articles.urls')),
     url(r'^admin/', include(admin.site.urls)),
-)
+ )
 
 urlpatterns += patterns('',
     (r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
@@ -20,7 +20,7 @@ urlpatterns += patterns('',
 
 # this code is append for static file
 urlpatterns += patterns('',
-    url(r'^static/(?P<path>.*)$', 'django.contrib.staticfiles.views.serve', {
+    url(r'^static/articles/(?P<path>.*)$', 'django.contrib.staticfiles.views.serve', {
         'document_root': settings.STATIC_ROOT,
     }),
 )

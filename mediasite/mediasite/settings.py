@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'suit_ckeditor',
     'bootstrapform',  
     'articles',
+
 )
 
 MIDDLEWARE_CLASSES = (
@@ -109,6 +110,8 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
     'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
+
+
 
 STATIC_ROOT = '/staticfiles'
 STATIC_URL = '/static/'

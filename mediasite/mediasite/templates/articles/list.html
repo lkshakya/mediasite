@@ -1,12 +1,6 @@
 {% extends "base.html" %}
-
-
   {% load bootstrap %}
-
 {% block content %}
-
-
-
 <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -16,32 +10,33 @@
           </ol>
         </div>
       </div>
-
       <div class="row">
-
         <div class="col-lg-8">
-
-
-
           <!-- Posts  -->
-            {% for post in posts.object_list %}
-
-           <h4><a href="/article/{{ post.id }}/">{{ post.title }}</a></h4>
-
-          <p><i class="icon-time"></i> Posted on {{ post.created }} by <a href="#">{{ post.author.name }}</a></p>
-          <p>{{ post.body|slice:":80"  }} ..
-          <a class="btn btn-primary" href="/article/{{ post.id }}/">Read More <i class="icon-angle-right"></i></a>
-          </p>
-
-    {% endfor %}
-
+           {% for post in posts.object_list %}
+            <div class="col-lg-12">
+            <p><h4><a href="/article/{{ post.id }}/">{{ post.title }}</a></h4>
+            <i class="icon-time"></i> Posted on {{ post.created }} by <a href="#">{{ post.author.name }}</a></p>
+           </div> 
+            <div class="col-lg-10">
+             <p>{{ post.body|slice:":60"  }} .. </p>
+           </div>
+           <div class="col-lg-2">
+           <p>
+            <a class="btn btn-primary" href="/article/{{ post.id }}/">Read More <i class="icon-angle-right"></i></a>
+             </p>
+            </div> 
+            {% endfor %}
 
        <div class="row text-center">
-
           <ul class="pagination">
 
 
-        {% if posts.has_previous %}
+
+ 
+
+{%  if posts.object_list.count > posts.paginator.num_pages  %}      
+  {% if posts.has_previous %}
     <li><a href="?page={{ posts.previous_page_number }}">&laquo;</a></li>
   {% else %}
     <li class="disabled"><a href="#">&laquo;</a></li>
@@ -60,6 +55,8 @@
   {% else %}
     <li class="disabled"><a href="#">&raquo;</a></li>
   {% endif %}
+
+ {% endif %}
 
           </ul>
       </div>
@@ -87,10 +84,7 @@
               <div class="row">
 
               {% for cat in categories.object_list %}
-
-
               {% if forloop.counter|divisibleby:2 %}
-
                 <div class="col-lg-6">
                   <ul class="list-unstyled">
                     <li><a href="/category/{{ cat.id }}/">{{ cat.category_name }}</a></li>

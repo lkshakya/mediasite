@@ -6,6 +6,7 @@ from django.contrib.admin import ModelAdmin
 from sorl.thumbnail import ImageField
 from suit_ckeditor.widgets import CKEditorWidget
 
+
 class Author(models.Model):
     name = models.CharField(max_length=60,blank=True, null=True)
     image = ImageField(upload_to='mediasite/media/author_post', blank=True, null=True)
@@ -24,22 +25,31 @@ class Author(models.Model):
 
 class Category(models.Model):
     category_name = models.CharField(max_length=60)
+    is_active = models.BooleanField(default=False)
+    parent = models.ForeignKey("self", blank=True, null=True)
+
     def __unicode__(self):
         return self.category_name
+
 
 class Post(models.Model):
     category = models.ForeignKey(Category, blank=True, null=True)
     author = models.ForeignKey(Author, blank=True, null=True)
-    image = models.ImageField(upload_to='mediasite/media/articleimage/',null=True,blank=True)
+    image = models.ImageField(upload_to = 'mediasite/media/articleimage/', null=True, blank=True)
     title = models.CharField(max_length=60)
     body = models.TextField()
+    is_active = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True)
+
     class Meta:
         verbose_name = 'Article'
         verbose_name_plural = 'Articles'
 
     def __unicode__(self):
         return self.title
+
+    def is_published(self):
+        return self.is_active
 
     def update(self, **kwargs):
         for k, v in kwargs.iteritems():
@@ -51,7 +61,8 @@ class Post(models.Model):
             this = Post.objects.get(id=self.id)
             if this.image != self.image:
                 this.image.delete(save=False)
-        except: pass
+        except:
+            pass
         super(Post, self).save(*args, **kwargs)
 
     def delete(self, *args, **kwargs):
@@ -62,49 +73,53 @@ class Post(models.Model):
         super(Post, self).__init__(*args, **kargs)
         self._meta.get_field_by_name("image")[0].directory = self.image
 
-    
     def thumbnail(self):
         return """<a href="/media/%s"><img border="0" alt="" src="/media/%s" height="40" /></a>""" % (
                                                                     (self.image.name, self.image.name))
     thumbnail.allow_tags = True
     
+
 class Comment(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     name = models.CharField("Name",max_length=60)
     email = models.EmailField('Email',unique='True')
     body = models.TextField()
     post = models.ForeignKey(Post)
+    is_published = models.BooleanField(default=False)
+
     def __unicode__(self):
         return unicode("%s: %s" % (self.post, self.body[:60]))
- 
+
+
 class PostForm(ModelForm):
     class Meta:
         model = Post
         widgets = {
             'body': CKEditorWidget(editor_options={'startupFocus': True})
         }
-        fields = ['category','image','title','body']
+        fields = ['category', 'image', 'title', 'body', 'is_active']
+
         def __init__(self, *args, **kwargs):
             super(PostForm, self).__init__(*args, **kwargs)
 
 
 class AuthorForm(ModelForm):
     class Meta:
-         model = Author
-         fields = ['name','image','email', 'password']
+        model = Author
+        fields = ['name', 'image', 'email', 'password']
 
 
 class PostAdmin(ModelAdmin):
-    list_display = ["__unicode__",   "thumbnail"]
+    list_display = ["__unicode__", "thumbnail", "is_published"]
     list_filter = ["title"]
     list_per_page =10
     form = PostForm
     fieldsets = [
-      ('Body', {'classes': ('full-width',), 'fields': ('category','author','image','title','body')})
+      ('Body', {'classes': ('full-width',), 'fields': ('category', 'author', 'image', 'title', 'body', 'is_active')})
     ]
 
 
 class CommentForm(ModelForm):
     class Meta:
         model = Comment
-        fields = ['name', 'email', 'body','post']
+        fields = ['name', 'email', 'body', 'post', 'is_published']

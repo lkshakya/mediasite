@@ -15,27 +15,29 @@ from articles.models import Post,PostForm,Category, Comment,CommentForm,Author,A
 #from haystack.views import FacetedSearchView,SearchView,search_view_factory
 
 
-
 def main(request):
     """Main listing."""
     categories = Category.objects.all().order_by("category_name")
     posts = Post.objects.all().order_by("-created")
     paginator = Paginator(categories, 100)
-    try: page = int(request.GET.get("page", '1'))
+    try:
+        page = int(request.GET.get("page", '1'))
     except ValueError: page = 1
     try:
         categories = paginator.page(page)
     except (InvalidPage, EmptyPage):
         categories = paginator.page(paginator.num_pages)
-    paginator = Paginator(posts, 10)
-    try: page = int(request.GET.get("page", '1'))
-    except ValueError: page = 1
+    paginator = Paginator(posts, 12)
+    try:
+        page = int(request.GET.get("page", '1'))
+    except ValueError:
+        page = 1
     try:
         posts = paginator.page(page)
+       
     except (InvalidPage, EmptyPage):
         posts = paginator.page(paginator.num_pages)
     return render_to_response('articles/list.html', RequestContext(request, {'posts':posts,'categories':categories}))
-
 
 
 def article_detail(request,article_id):
@@ -46,18 +48,18 @@ def article_detail(request,article_id):
             cmodel.save()
     comments = Comment.objects.filter(post_id=article_id).order_by("created")
     paginator = Paginator(comments, 100)
-    try: page = int(request.GET.get("page", '1'))
-    except ValueError: page = 1
-
+    try:
+        page = int(request.GET.get("page", '1'))
+    except ValueError:
+        page = 1
     try:
         comments = paginator.page(page)
     except (InvalidPage, EmptyPage):
         comments = paginator.page(paginator.num_pages)
-
-
     categories = Category.objects.all().order_by("category_name")
     paginator = Paginator(categories, 100)
-    try: page = int(request.GET.get("page", '1'))
+    try:
+        page = int(request.GET.get("page", '1'))
     except ValueError: page = 1
 
     try:
@@ -82,25 +84,22 @@ def category_detail(request,cat_id):
     """Main listing."""
     form = CommentForm(request.POST,None)
     if form.is_valid():
-
-            cmodel = form.save()
-            cmodel.save()             
+        cmodel = form.save()
+        cmodel.save()
     comments = Comment.objects.all().order_by("created")
     paginator = Paginator(comments, 100)
     try: page = int(request.GET.get("page", '1'))
     except ValueError: page = 1
-
     try:
         comments = paginator.page(page)
     except (InvalidPage, EmptyPage):
         comments = paginator.page(paginator.num_pages)
-
-
     categories = Category.objects.all().order_by("category_name")
     paginator = Paginator(categories, 100)
-    try: page = int(request.GET.get("page", '1'))
-    except ValueError: page = 1
-
+    try:
+        page = int(request.GET.get("page", '1'))
+    except ValueError:
+        page = 1
     try:
         categories = paginator.page(page)
     except (InvalidPage, EmptyPage):
@@ -108,9 +107,10 @@ def category_detail(request,cat_id):
     posts = Post.objects.filter(id=cat_id) 
     paginator = Paginator(posts, 2)
 
-    try: page = int(request.GET.get("page", '1'))
-    except ValueError: page = 1
-
+    try:
+        page = int(request.GET.get("page", '1'))
+    except ValueError:
+        page = 1
     try:
         posts = paginator.page(page)
     except (InvalidPage, EmptyPage):
@@ -151,6 +151,7 @@ def search_posts(request):
         )
     return view(request)
 
+
 def comment_post(request,article_id):
     """Main listing."""
     form = CommentForm(request.POST,None)
@@ -179,8 +180,6 @@ def comment_post(request,article_id):
     return render_to_response("articles/detail.html", RequestContext(request, {'posts':posts,'categories':categories}))
 
 
-
-
 def authors(request):
     author = get_object_or_404(Author, pk=request.session['author_id'])
     form = AuthorForm(None,instance=author)
@@ -190,8 +189,7 @@ def authors(request):
                               context_instance=RequestContext(request))
 
 
-
-def fileView(request):
+def file_view(request):
     posts = Post.objects.filter(author_id=request.session['author_id'])
     paginator = Paginator(posts, 10)
     try: page = int(request.GET.get("page", '1'))
@@ -204,24 +202,20 @@ def fileView(request):
     return render_to_response("articles/myarticle.html", RequestContext(request, {'posts':posts}))
 
 
-
-def uploadView(request):
+def upload_view(request):
     if request.method == 'POST':
         form = PostForm(request.POST,request.FILES)
         if form.is_valid():
             cmodel = form.save()
-            #This is where you might chooose to do stuff.
-            #cmodel.name = 'test1'
-            #request.session['article_id'] = cmodel.id
             cmodel.save()
-    
-    
+
     post = Post()
     form = PostForm(None,instance=post)
     return render_to_response('articles/writearticle.html',
                               {'post_form': form,
                                'author_id': request.session['author_id']},
                               context_instance=RequestContext(request))
+
 
 def author_add(request):
         form = AuthorForm(request.POST,None)
@@ -244,26 +238,9 @@ def author_add(request):
                                   context_instance=RequestContext(request))
 
 
-
 def author_edit(request):
-    
     if request.method == 'POST':
         Author.objects.get(pk=request.session['author_id']).update(name=request.POST['name'],image=request.FILES.get('image'),email=request.POST['email'])
-        
-        #formdata = AuthorForm(request.POST,request.FILES)
-        #if formdata.is_valid():
-        #        cd = formdata.cleaned_data
-        #        p1=Author.objects.get()
-        #        p1.id=request.session['author_id']
-        #        p1.name=cd['name']
-        #        p1.password=cd['password']
-        #       p1.email=cd['email']
-        #        if cd['image']:
-        #            p1.image=cd['image']
-        #        else:     
-        #            p1.image=cd['upload_image']
-        #        p1.save()
-    
     author = get_object_or_404(Author, pk=request.session['author_id'])
     form = AuthorForm(None,instance=author)
     return render_to_response('articles/author_edit.html',
@@ -271,9 +248,10 @@ def author_edit(request):
                                'author_id': request.session['author_id']},
                               context_instance=RequestContext(request))
 
+
 def login(request):
     c = {}
-    msg="Invlaid Username or Password!"
+    msg = "Invlaid Username or Password!"
     c.update(csrf(request))
     if request.method != 'POST':
         return render_to_response('articles/login.html', RequestContext(request, {}))
@@ -289,10 +267,9 @@ def login(request):
     return render_to_response('articles/login.html', RequestContext(request, {}))
 
 
-
 def logout(request):
     try:
-        del  request.session['author_id']
+        del request.session['author_id']
     except KeyError:
         pass
     return redirect(login)
