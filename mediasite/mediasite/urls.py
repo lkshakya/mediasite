@@ -20,7 +20,7 @@ urlpatterns += patterns('',
 
 # this code is append for static file
 urlpatterns += patterns('',
-    url(r'^static/articles/(?P<path>.*)$', 'django.contrib.staticfiles.views.serve', {
+    url(r'^static/(?P<path>.*)$', 'django.contrib.staticfiles.views.serve', {
         'document_root': settings.STATIC_ROOT,
     }),
 )
